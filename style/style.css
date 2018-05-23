@@ -1,0 +1,147 @@
+@font-face {
+  font-family: friction;
+  src: url(frictionFixed.otf);
+}
+
+p{
+  margin: 0;
+}
+
+.wrapperCustomFont{
+  background-color: white;
+  transform: skewX(-20deg);
+  width: fit-content;
+  height: fit-content;
+  border: solid black 10px;
+  margin: 10px;
+}
+
+.borderSmallFont{
+  border: solid black 5px;
+}
+
+.styleFont{
+  font-family: friction;
+  padding: 5px 20px 5px 20px;
+  color: black;
+  width: fit-content;
+  transform: skewX(20deg);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1.styleFont{
+  font-size: 90px;
+}
+
+h2.styleFont{
+  font-size: 30px;
+}
+
+.smallerSection{
+  padding: 90px;
+}
+
+.crookedDiv{
+  transform: skewY(2deg);
+  /* padding: 90px; */
+}
+
+.unCrookedDiv{
+  transform: skewY(-2deg);
+}
+
+.whiteText{
+  color: white;
+  font-size: 1.1em;
+}
+
+.blackText{
+  color: black;
+  font-size: 1.1em;
+}
+
+.navBarCustom {
+  transform: skewX(-20deg);
+  background-color: #d30732;
+  position: relative;
+  top:-25px;
+}
+
+.skewDivText{
+  transform: skewX(-20deg);
+}
+
+.unSkewText{
+  transform: skewX(20deg);
+}
+
+.customButtonFront{
+  position: relative;
+    top: -50px;
+    left: 200px;
+    font-size: 35px;
+    border-radius: 0;
+}
+
+.centerTitle{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.imgWithText{
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  top: -20px;
+  left: 50px;
+  z-index: 0;
+}
+
+.textOnImg{
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  float: right;
+  right: 50px;
+  bottom: 250px;
+  margin-bottom: -200px;
+  border-left: solid 5px #d30732;
+}
+
+.imgWithTextReverse{
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  float:right;
+  top: -20px;
+  right: 50px;
+  z-index: 0;
+}
+
+.textOnImgReverse{
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  float: left;
+  left: 50px;
+  bottom: 250px;
+  margin-bottom: -200px;
+  border-right: solid 5px #d30732;
+}
+
+.bottomImages{
+  width: 200px;
+}
+
+.textBottomImg{
+  font-weight: 200;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
