@@ -1,0 +1,162 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding:0;
+    margin:0;
+}
+
+.container {
+    width: 980px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.imCaptcha {
+    width: 500px;
+    height: 60px;
+    border-radius: 7px;
+    background-color: #F9F9F9;
+    padding: 20px;
+    border: 1px solid lightgray;
+    z-index: 20;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imCaptcha p {
+    font-size: 1.4em;
+}
+
+.containerCheckbox {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.containerCheckboxBefore {
+    border: 3px solid dimgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.logoCaptcha {
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+}
+
+.imCaptchaPop {
+    transform: scale(0);
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 7px;
+    background-color: #F9F9F9;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    /*top: -500px;*/
+    z-index: 10;
+    transform-origin: top left 20px;
+
+    transition: all .5s;
+}
+
+.scaleUp {
+     transform: scale(1);
+
+ }
+
+.scaleDown {
+    transform: scale(0);
+}
+
+.loadingBar{
+    /*opacity: 0;*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    box-sizing: border-box;
+    border: 7px solid #4385f5;
+    /*margin-left: 17px;*/
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: loadingBar 1.5s linear infinite;
+}
+
+@keyframes loadingBar {
+    from {}
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.check {
+    /*transform: scale(1.15);*/
+    stroke-dasharray: 130px 130px;
+    stroke-dashoffset: 130px;
+    -webkit-transition: stroke-dashoffset 4.1s linear 0s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: stroke-dashoffset 500ms ease-in-out;
+    /*margin-left: 17px;*/
+}
+
+.iframeGame {
+    border: none;
+    width: 500px;
+    height: 200px;
+}
+
+.iframeNumbers{
+    border: none;
+    width: 400px;
+    height: 500px;
+}
+
+.infoCaptchaPop {
+    font-style: italic;
+}
+

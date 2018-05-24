@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
 
     <meta charset="utf-8">
@@ -180,6 +178,15 @@
       </div>
     </div>
   </section>
+  <section class="white-section smallerSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <iframe class="captchaFrame" src="captcha/sven.php"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
   </body>
 </html>
