@@ -129,8 +129,7 @@
     <div class="container unCrookedDiv">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase whiteText">Analoge toegankelijkheid wordt gezien als een standaart</h2>
-          <h3 class="section-subheading text-muted whiteText">Nu digitaal nog</h3>
+          <h2 class="section-heading text-uppercase whiteText">Analoge toegankelijkheid wordt gezien als een standaard.</h2>
         </div>
       </div>
       <br><br>
