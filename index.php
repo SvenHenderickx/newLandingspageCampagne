@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,6 +10,7 @@
     <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+
   </head>
 
   <body id="page-top">
@@ -43,7 +43,7 @@
       <div class="intro-text">
         <!-- <div class="intro-lead-in">Accessibilty</div> -->
         <div class="intro-heading text-uppercase"><div class="wrapperCustomFont"><h1 class="styleFont">Are you not a robot?</h1></div></div>
-        <a class="btn btn-danger btn-xl btn-link text-uppercase customButtonFront skewDivText" href=""><p class="unSkewText">Join the humans</p></a>
+        <a class="btn btn-danger btn-xl text-uppercase customButtonFront skewDivText" href=""><p class="unSkewText">Join the humans</p></a>
       </div>
     </div>
   </header>
@@ -133,8 +133,7 @@
     <div class="container unCrookedDiv">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase whiteText">Analoge toegankelijkheid wordt gezien als een standaard</h2>
-          <h3 class="section-subheading text-muted whiteText">Nu digitaal nog</h3>
+          <h2 class="section-heading text-uppercase whiteText">Analoge toegankelijkheid wordt gezien als een standaard.</h2>
         </div>
       </div>
       <br><br>
@@ -182,7 +181,6 @@
       </div>
   </section>
 
-  <div id=oplossing></div>
   <!--Call to action sectie-->
   <section class="white-section smallerSection">
     <div class="container">
@@ -194,13 +192,25 @@
           <img src="img/laptopBig.jpg" class="imgWithTextReverse">
           <!-- <a href="https://www.accessibility.nl/"><div class="ctaBtn"><h2 class="styleFont">Stichting Accessibilty</h2></div></a> -->
           <a href="https://www.accessibility.nl/">
-          <button class="buttn btn--skew btn-default">
-            <span>Wil jij jou site toegankelijk maken?</span>
-          </button>
+            <div class="btn">
+              <svg>
+                <rect x="0" y="0" fill="none" width="266" height="85" />
+              </svg>
+                Stichting Accessibilty
+            </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="white-section smallerSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <iframe class="captchaFrame" src="captcha/sven.php"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
   </body>
 </html>
