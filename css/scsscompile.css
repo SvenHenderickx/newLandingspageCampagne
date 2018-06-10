@@ -33,7 +33,7 @@
 .btn-link {
   position: relative;
   display: inline-block;
-  color: #281130;
+  /* color: #281130; */
   font-size: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;

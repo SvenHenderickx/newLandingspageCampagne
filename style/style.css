@@ -47,7 +47,7 @@ p:hover {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  /* color: black; */
   cursor: pointer;
   overflow: hidden;
   background: #D30732;
@@ -61,7 +61,7 @@ p:hover {
   stroke-width: 6;
   stroke-dasharray: 422, 0;
   stroke-dashoffset: 0;
-  
+
   @include transition(all 900ms $ease-out-expo);
 }
 .btn:hover svg rect {
@@ -133,8 +133,21 @@ h2.styleFont{
   position: relative;
   top: -50px;
   left: 200px;
-  font-size: 35px;
+  font-size: 80px;
   border-radius: 0;
+  font-color: white;
+  text-decoration: none;
+}
+
+.biggerFontBtn{
+  font-size: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.customButtonFront:visited{
+  text-decoration: none;
+  font-color: white;
 }
 
 .centerTitle{
@@ -245,7 +258,7 @@ h2.styleFont{
 .btn-link {
   position: relative;
   display: inline-block;
-  color: #281130;
+  /* color: #281130; */
   font-size: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -435,7 +448,7 @@ header.masthead {
 }
 
 .ctaBtn {
-  
+
 }
 
 header.masthead .intro-text .intro-heading {
@@ -485,7 +498,7 @@ header.masthead .intro-text .intro-heading {
   text-decoration: none;
   border: 0;
   transition: all 200ms ease-in;
-  display: inline-block; 
+  display: inline-block;
   background-color: white;
   padding: 20px;
   width: 45%;
@@ -502,24 +515,24 @@ header.masthead .intro-text .intro-heading {
     font-weight: bold;
     text-transform: uppercase;
     border: 4px solid black;
-    padding: 12px 28px; 
+    padding: 12px 28px;
   }
 
     .btn-default:hover {
       background-color: #d30732;
       color: white;
-      transform: skew(-20deg); 
+      transform: skew(-20deg);
     }
-  
+
   .btn-default:hover > span {
     transform: skew(20deg);
   }
 
   .btn--skew {
-    transform: skew(0deg); 
+    transform: skew(0deg);
   }
 
     .btn--skew > span {
       transform: skew(0deg);
-      display: inline-block; 
+      display: inline-block;
     }
